@@ -35,7 +35,7 @@ pip install pyperclip
 
 ## COMMANDS: 
 
-ip: 
+### - ip: 
 
 The ip command will enter the ip address of whatever router and interface we are gonna configure. There are 3 arguments that are entered (INT, IP, CIDR). Here is an example: 
 ```bash
@@ -47,7 +47,7 @@ The IP argument just takes the IP address that will be entered for that interfac
 
 The CIDR command takes the cidr, and translates that to a subnet mask for you. 
 
-name: 
+### - name: 
 
 The name command takes the name that will be put for the Router/Switch. Here is an example: 
 ```bash
@@ -57,19 +57,19 @@ The above example will name the router “R1”, configure the domain name to be
 
  
 
-clock: 
+### - clock: 
 
 This command will change the s0/1/0 clock rate to 500000 
 
-ssh: 
+### - ssh: 
 
 This command will enable ssh, and the default password is “class” 
 
-Eigrp: 
+### - Eigrp: 
 
 This command will enable eigrp. Currently the eigrp is configured for 10.0.0.0, 11.0.0.0, and 172.16.0.0. if you wish to add another one to the default script, the command is in routerScript.py. 
 
-trunk: 
+### - trunk: 
 
 This will turn on the trunk port ON THE ROUTER, and is a necessary step before entering the vlan command. Trunk as for one input and that would be the interface. Here is an example: 
 ```bash
@@ -79,7 +79,7 @@ The above example will allow g0/0/0 to be set up as a trunk port.
 
  
 
-vlan: 
+### - vlan: 
 
 This command will enable vlan configuration on the router, A TRUNK PORT MUST BE ENABLED FIRST (this can be done with the trunk command). Vlan takes 4 arguments (INT, IP, CIDR, VLAN ). Here is an example: 
 ```bash
@@ -93,7 +93,7 @@ The CIDR argument takes the cidr, and translates that to a subnet mask for you.
 
 The VLAN argument takes the VLAN we want to set. So in this example we are stating this is VLAN 10 
 
-dhcp: 
+### - dhcp: 
 
 The dhcp command takes two arguments subID and CIDR, and will configure a dhcp pool for that network. Here is an example. 
 ```bash
@@ -111,7 +111,7 @@ THE DHCP COMMAND WILL NOT PERFORM EXCLUDED ADDRESSES OR IP HELPER ADDRESS
 
 You will have to enter excluded addresses for dhcp manually, and configure ip helper address on other routers that do not have the dhcp pool. 
 
-switch: 
+### - switch: 
 
 This command is split into two posibilities, and will ask for Gigabit port (g) or FastEthernet port (f) 
 
@@ -125,10 +125,10 @@ What vlan is it for: 10
 
 The above will set the switch to allow vlan 10 work on FastEthernet ports 1-11. 
 
-help: 
+### - help: 
 
 This command will show all available commands 
 
-bye: 
+### - bye: 
 
 This command will end the program 
