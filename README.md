@@ -21,6 +21,9 @@ All commands must be in lowercase and the commands will be explained in how they
 
  
 ## Installation
+
+Download or copy the script in both routerConfigpkt.py and routerScript.py
+
 ***DISCLAIMER!!! YOU MUST HAVE PYPERCLIP.PY INSTALLED FOR THIS SCRIPT TO WORK*** 
 
 To install pyperclip.py: 
