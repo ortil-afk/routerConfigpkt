@@ -20,7 +20,7 @@ RouterConfig.py is set up to automate scripts that will be sent into Packet Trac
 All commands must be in lowercase and the commands will be explained in how they work and what they do. Also, all Routers and Switches must be in enabled mode in order for this to work. All arguments from the command are seperated by spaces, and have no other method in order to separate these values when entering them. 
 
  
-
+## Installation
 ***DISCLAIMER!!! YOU MUST HAVE PYPERCLIP.PY INSTALLED FOR THIS SCRIPT TO WORK*** 
 
 To install pyperclip.py: 
