@@ -3,7 +3,9 @@ Tool used to configure routers and switches in pkt tracer, by modifying and copy
 
 ## Tutorial Videos
 
-https://youtu.be/ZqKLcFuX9sM
+https://youtu.be/ZqKLcFuX9sM The basics (ip, name, ssh, eigrp, dhcp)
+
+https://youtu.be/VC6-WAQNKTw VLAN and Trunking (vlan, trunk, switch)
 
 ## How routerConfig.py works 
 
