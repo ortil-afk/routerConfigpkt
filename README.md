@@ -56,7 +56,7 @@ The name command takes the name that will be put for the Router/Switch. Here is 
 ```bash
 Ex. --> R1 
 ```
-The above example will name the router “R1”, configure the domain name to be “ecpi.local”, and set the enable password to “cisco” 
+The above example will name the router “R1”, and configure the domain name to be “ecpi.local” 
 
  
 
