@@ -123,9 +123,9 @@ If you choose “g” this will configure the switch to set up trunking on the g
 If you choose “f” this will go into vlan configuration for the switch, and the only two parameters it will ask for is the range of the ports, and the vlan assigned. Here is an example: 
 ```bash
 Ex. --> what fast ethernet ports: 1-11 
-```
-What vlan is it for: 10 
 
+What vlan is it for: 10 
+```
 The above will set the switch to allow vlan 10 work on FastEthernet ports 1-11. 
 
 ### - help: 
