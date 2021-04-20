@@ -1,6 +1,10 @@
 # routerConfigpkt
 Tool used to configure routers and switches in pkt tracer, by modifying and copying repetitive commands.
 
+## Tutorial Videos
+
+https://youtu.be/ZqKLcFuX9sM
+
 ## How routerConfig.py works 
 
 RouterConfig.py is set up to automate scripts that will be sent into Packet Tracer to configure Routers and Switches. It works in the same way as a shell, but will prevent mistakes from being sent to packet tracer to prevent typos, and faster configuration of routers since the commands are the same. These are the following commands that can be input into the scipt: 
