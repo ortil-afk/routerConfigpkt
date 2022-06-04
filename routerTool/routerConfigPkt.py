@@ -110,7 +110,7 @@ def networkShell(getcommand):
         switchConfig()
         main()
     elif getcommand == "help":
-        print("ip, name, clock, ssh, eigrp, trunk, vlan, dhcp, switch")
+        print("ip, name, clock, ssh, eigrp, trunk, vlan, dhcp, switch, bye")
         main()
     elif getcommand == "bye":
         print("GoodBye :)")
